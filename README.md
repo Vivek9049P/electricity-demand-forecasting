@@ -91,7 +91,7 @@ electricity-demand-forecasting/
 │   └── model_objects/
 │
 ├── reports/
-│   ├── A1_report.docx
+│   ├── A1_report.pdf
 │   └── figures/
 │
 ├── notebooks/
