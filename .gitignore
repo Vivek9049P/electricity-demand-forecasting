@@ -1,0 +1,38 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Data: never commit large or regeneratable raw/interim data ---
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# --- Generated outputs (regeneratable via scripts/run_pipeline.py) ---
+outputs/figures/*
+outputs/forecasts/*
+outputs/metrics/*
+outputs/model_objects/*
+!outputs/figures/.gitkeep
+!outputs/forecasts/.gitkeep
+!outputs/metrics/.gitkeep
+!outputs/model_objects/.gitkeep
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/

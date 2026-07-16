@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "electricity-demand-forecasting"
+version = "0.1.0"
+description = "Forecasting German weekly electricity demand: benchmarks, SARIMAX, feature-based ML, and optional Bayesian/neural extensions."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
